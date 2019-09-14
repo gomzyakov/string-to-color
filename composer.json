@@ -1,7 +1,7 @@
 {
     "name": "gomzyakov/string-to-color",
     "type": "library",
-    "description": "Simple autoloader providing full compatibility with PSR-4 standard.",
+    "description": "Simple string to RGB-color converter.",
     "keywords": [
         "color",
         "string",
