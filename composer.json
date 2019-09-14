@@ -1,7 +1,7 @@
 {
     "name": "gomzyakov/string-to-color",
     "type": "library",
-    "description": "Simple string to RGB-color converter.",
+    "description": ":rainbow: Simple string to RGB-color converter.",
     "keywords": [
         "color",
         "string",
