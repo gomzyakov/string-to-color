@@ -1,0 +1,29 @@
+{
+    "name": "gomzyakov/string-to-color",
+    "type": "library",
+    "description": "Simple autoloader providing full compatibility with PSR-4 standard.",
+    "keywords": [
+        "color",
+        "string",
+        "text",
+        "rgb"
+    ],
+    "homepage": "https://github.com/gomzyakov/string-to-color",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Gomzyakov",
+            "email": "alexander.gomzyakov@gmail.com",
+            "homepage": "https://gomzyakov.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gomzyakov\\": "src/"
+        }
+    }
+}
