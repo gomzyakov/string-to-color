@@ -9,7 +9,7 @@ class StringToColor
      *
      * @param $text String of text
      */
-    public static function generateColorFromString(string $text): array
+    public static function convertStringToColor(string $text): array
     {
         // Generate hash of string
         $hash = md5($text);

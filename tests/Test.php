@@ -2,9 +2,9 @@
 
 class Helper_StringToColor_Test extends PHPUnit\Framework\TestCase
 {
-    public function test_Generate_color_from_string()
+    public function test_Convert_string_to_color()
     {
-        $color = \Gomzyakov\StringToColor::generateColorFromString('Gomzyakov');
+        $color = \Gomzyakov\StringToColor::convertStringToColor('Gomzyakov');
 
         $expected_color = [
             'red'   => 30,
@@ -15,9 +15,9 @@ class Helper_StringToColor_Test extends PHPUnit\Framework\TestCase
         $this->assertEquals($expected_color, $color);
     }
 
-    public function test_Generate_color_from_short_string()
+    public function test_Convert_short_string_to_color()
     {
-        $color = \Gomzyakov\StringToColor::generateColorFromString('A');
+        $color = \Gomzyakov\StringToColor::convertStringToColor('A');
 
         $expected_color = [
             'red'   => 90,
