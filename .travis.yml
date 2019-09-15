@@ -3,7 +3,7 @@ language: php
 
 # Choosing PHP versions to test
 php:
-  - '7.1'
+  - '7.2'
 
 # Commands to be run before your environment runs:
 before_script:
