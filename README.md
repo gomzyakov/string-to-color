@@ -18,7 +18,7 @@ echo \Gomzyakov\StringToColor::convertStringToColor('Some text');
 
 ## Example outputs
 
-| Input     | Output       |
-|-----------|--------------|
-| Gomzyakov | 30, 138, 114 |
-| A         | 90, 117, 38  |
+| Input     | Color                                                    | Output RGB   |
+|-----------|----------------------------------------------------------|--------------|
+| Gomzyakov | ![#f03c15](https://placehold.it/12/1E8A72/000000?text=+) | 30, 138, 114 |
+| Sasha     | ![#f03c15](https://placehold.it/12/AA4F2D/000000?text=+) | 90, 117, 38  |
